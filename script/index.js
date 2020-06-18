@@ -1,6 +1,6 @@
 //pega os estados pela internet 
 function populateUFs() {
-  const ufSelect = document.querySelector("select[name=uf]")
+  const ufSelect = document.querySelector("select[name=PLACE]")
 
   fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
   .then(res => res.json() )
